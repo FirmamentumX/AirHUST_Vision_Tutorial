@@ -59,10 +59,10 @@
 
 ```bash
 # 克隆你fork的仓库（替换<your-username>为你的GitHub用户名）
-git clone https://github.com/<your-username>/AirHust_vision_training.git
+git clone https://github.com/<your-username>/AirHUST_Vision_Tutorial.git
 
 # 进入项目目录
-cd AirHust_vision_training
+cd AirHUST_Vision_Tutorial
 ```
 
 ### 第四步：配置开发环境
