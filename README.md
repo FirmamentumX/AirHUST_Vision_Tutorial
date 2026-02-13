@@ -17,6 +17,7 @@
   - lab1_3_flipping_channels: 通道操作
   - lab1_4_spin_around: 图像旋转
   - lab1_5_perspective_transform: 透视变换
+  - lab1_6_simple_threshold: 简单阈值分割及轮廓筛选等
 
 * **lab2: OpenCV视觉工程** - 构建实际视觉应用
 
@@ -29,6 +30,7 @@
 - ✅ lab1_3_flipping_channels (已发布)
 - ✅ lab1_4_spin_around (已发布)
 - ✅ lab1_5_perspective_transform (已发布)
+- ✅ lab1_6_simple_threshold (已发布)
 
 ## 快速开始指南
 
