@@ -18,9 +18,13 @@
   - lab1_4_spin_around: 图像旋转
   - lab1_5_perspective_transform: 透视变换
   - lab1_6_simple_threshold: 简单阈值分割及轮廓筛选等
+  - lab1_7_mask: 基础掩膜操作
+  - lab1_8_morphological_process： 基本形态学操作
 
 * **lab2: OpenCV视觉工程** - 构建实际视觉应用
-
+  -  lab2_1_video_stream_processing: 视频流处理
+  -  lab2_2_ros_pkg_for_vision 如何封ros包
+  
 * **lab3: 深度学习相关** - 深度学习在视觉中的应用
 
 ### 发布时间表
@@ -31,7 +35,11 @@
 - ✅ lab1_4_spin_around (已发布)
 - ✅ lab1_5_perspective_transform (已发布)
 - ✅ lab1_6_simple_threshold (已发布)
-
+- ✅ lab1_7_mask (已发布)
+- 🔄 lab1_8_morphological_process ( 2026.2.26 )
+- 🔄 lab2_1_video_stream_processing
+- 🔄 lab2_2_ros_pkg_for_vision
+  
 ## 快速开始指南
 
 ### 第一步：准备工作
