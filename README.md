@@ -36,7 +36,7 @@
 - ✅ lab1_5_perspective_transform (已发布)
 - ✅ lab1_6_simple_threshold (已发布)
 - ✅ lab1_7_mask (已发布)
-- 🔄 lab1_8_morphological_process ( 2026.2.26 )
+- ✅ lab1_8_morphological_process (已发布)
 - 🔄 lab2_1_video_stream_processing
 - 🔄 lab2_2_ros_pkg_for_vision
   
