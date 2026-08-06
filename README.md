@@ -8,7 +8,7 @@
 
 ### 实验内容
 * **lab0:测试环境** - 测试你的各种环境是否正常
-   lab0_test_for_env:测试环境
+  - lab0_test_for_env:测试环境
 
 * **lab1: 图像基础** - 掌握图像处理的基本操作
   
@@ -17,19 +17,29 @@
   - lab1_3_flipping_channels: 通道操作
   - lab1_4_spin_around: 图像旋转
   - lab1_5_perspective_transform: 透视变换
+  - lab1_6_simple_threshold: 简单阈值分割及轮廓筛选等
+  - lab1_7_mask: 基础掩膜操作
+  - lab1_8_morphological_process： 基本形态学操作
 
 * **lab2: OpenCV视觉工程** - 构建实际视觉应用
-
+  -  lab2_1_video_stream_processing: 视频流处理
+  -  lab2_2_ros_pkg_for_vision 如何封ros包
+  
 * **lab3: 深度学习相关** - 深度学习在视觉中的应用
 
 ### 发布时间表
 - ✅ lab0_test_for_env (已发布)
-- 🔄 lab1_1_read_write_images (即将发布于2025/12/28)
-- 🔄 lab1_2_from_pixels_to_images (即将发布于2025/12/28)
-- 🔄 lab1_3_flipping_channels (即将发布于2025/12/28)
-- 🔄 lab1_4_spin_around (即将发布于2025/12/28)
-- 🔄 lab1_5_perspective_transform (即将发布于2025/12/28)
-
+- ✅ lab1_1_read_write_images (已发布)
+- ✅ lab1_2_from_pixels_to_images (已发布)
+- ✅ lab1_3_flipping_channels (已发布)
+- ✅ lab1_4_spin_around (已发布)
+- ✅ lab1_5_perspective_transform (已发布)
+- ✅ lab1_6_simple_threshold (已发布)
+- ✅ lab1_7_mask (已发布)
+- ✅ lab1_8_morphological_process (已发布)
+- 🔄 lab2_1_video_stream_processing
+- 🔄 lab2_2_ros_pkg_for_vision
+  
 ## 快速开始指南
 
 ### 第一步：准备工作
@@ -59,10 +69,20 @@
 
 ```bash
 # 克隆你fork的仓库（替换<your-username>为你的GitHub用户名）
-git clone https://github.com/<your-username>/AirHust_vision_training.git
+git clone https://github.com/<your-username>/AirHUST_Vision_Tutorial.git
 
 # 进入项目目录
-cd AirHust_vision_training
+cd AirHUST_Vision_Tutorial
+
+# 将原仓库添加为上游
+git remote add upstream https://github.com/FirmamentumX/AirHUST_Vision_Tutorial.git
+
+# 拉取原仓库的所有分支
+git fetch upstream
+
+# 同步到本地和副本仓库
+git checkout -b 分支名 upstream/分支名
+git push origin 分支名
 ```
 
 ### 第四步：配置开发环境
@@ -142,11 +162,12 @@ cd AirHust_vision_training
 # 查看所有分支（包括远程分支）
 git branch -a
 
-# 获取最新的分支信息
-git fetch origin
+# 更新原仓库的所有分支
+git fetch upstream
 
-# 切换到特定的实验分支（例如lab1_1）
-git checkout lab1_1_read_write_images
+# 同步到本地和副本仓库
+git checkout -b 分支名 upstream/分支名
+git push origin 分支名
 
 # 查看当前所在分支
 git branch
